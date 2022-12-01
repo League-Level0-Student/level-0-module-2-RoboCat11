@@ -30,7 +30,7 @@ public class IntroToRandom {
 		for (int i=0; i<5; i++) {
 			// Uncomment the line of code below, but replace the _____ with a positive integer (e.g. 100) before running the program			
 
-			// number = ran.nextInt(_____);
+			 number = ran.nextInt(100);
 			System.out.println(number);
 			
 		}
@@ -46,10 +46,10 @@ public class IntroToRandom {
 		
 		for (int i=0; i<5; i++) {
 			// Uncomment the line of code below, and replace (_____)  with   (highest value - lowest value + 1)
-			// For our example, this will be:  ( 75 - 25 + 1 )
+			// For our example, this will be:  (highest value - lowest value + 1)
 			// Also replace <lowest value> with the start of the range.  For our example, this is 25.
 			
-			// number = ran.nextInt(_____) + <lowest value>;
+			number = ran.nextInt(50) + 25;
 			System.out.println(number);
 			
 		}
