@@ -55,7 +55,7 @@ public class DiceRoll {
 
 		rollButton.addActionListener((e) -> {
 
-			// 1. Make randomChoice equal to a random number between 1 and 6
+			// 1. Make randomChoice equal to a random number between 1 and 6);
 			Random ran = new Random(); 
 			int randomChoice = ran.nextInt(6) + 1;
 
