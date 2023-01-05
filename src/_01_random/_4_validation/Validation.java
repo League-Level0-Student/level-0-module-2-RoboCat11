@@ -22,6 +22,7 @@ public class Validation {
 		 }JOptionPane.showInputDialog("You're sleighin' it!");{
 			  }JOptionPane.showInputDialog("You're awwww-some!!!");
 		// 2. Repeat all the code above 10 times
+		 
 		
 		// 3. Find someone to test out your program. They will like it :)
 	}

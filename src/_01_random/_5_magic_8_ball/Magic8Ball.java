@@ -7,9 +7,11 @@ package _01_random._5_magic_8_ball;
 import java.util.Random;
 
 public class Magic8Ball {
-
+	Random ran = new Random();
+	int randomChoice = ran.nextInt(3) + 1;
 	// 1. Make a main method that includes all the steps below
 
+	
 	// 2. Get the user to enter a question for the 8 ball to answer
 	
 
