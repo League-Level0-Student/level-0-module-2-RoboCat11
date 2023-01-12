@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 public class Validation {
 	public static void main(String[] args) {
-		
+		for(int i=0; i<10; i++) {
 		Random randomMaker = new Random();
 		
 		int randomNumber = randomMaker.nextInt(5);
@@ -21,9 +21,8 @@ public class Validation {
 		 if (randomChoice == 0) {
 		 }JOptionPane.showInputDialog("You're sleighin' it!");{
 			  }JOptionPane.showInputDialog("You're awwww-some!!!");
-		// 2. Repeat all the code above 10 times
+		}// 2. Repeat all the code above 10 times
 		 
-		
-		// 3. Find someone to test out your program. They will like it :)
+   		// 3. Find someone to test out your program. They will like it :)
 	}
 }
