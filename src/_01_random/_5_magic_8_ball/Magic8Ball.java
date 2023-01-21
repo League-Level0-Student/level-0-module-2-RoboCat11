@@ -39,20 +39,19 @@ JOptionPane.showMessageDialog(null,"Yes");
 	// 5. If the random number is 1
 
 	// -- tell the user "No"
-if(number == 0 ) {
+if(number == 1 ) {
 JOptionPane.showMessageDialog(null,"No");
 }
 	// 6. If the random number is 2
-if(number == 0 ) {
-JOptionPane.showMessageDialog(null,"");
+
 	// -- tell the user "Maybe you should ask Google?"
-if(number == 0 ) {
+if(number == 2 ) {
 JOptionPane.showMessageDialog(null,"Maybe you should ask Google?");
 }
 	// 7. If the random number is 3
 
 	// -- write your own answer
-if(number == 0 ) {
+if(number == 3 ) {
 JOptionPane.showMessageDialog(null,"I don't know!!!");
 }
 		}
