@@ -30,7 +30,8 @@ public class AnimalFarm {
 		*/			 
 			
 		/* 2. Make it so that the user can keep entering new animals. */
-			JOptionPane.showInputDialog("Please enter a name of an animal on this farm.");
+		String input = JOptionPane.showInputDialog("Please enter a name of an animal on this farm.");
+		
 			
 	}
 
