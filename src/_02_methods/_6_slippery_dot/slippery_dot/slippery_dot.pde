@@ -2,15 +2,17 @@
      that jumps to new location each time you click on it.
 ***/
  
- // 1. Create three integer variables to represent the x, y, and the size of the ellipse
-       
+ // 1. Create three integer variables to represent the x, y, and the size of the ellipse   
     void setup() {
       // 2. Set the size of your sketch
     
     }
     
     void draw() {
-    
+    int x= 10 ;
+    int y= 10 ;
+    int size= 10 ;
+    size
       // 3. Set the background color of your sketch
       
       // 4. Draw an ellipse using the variables created at the top of the sketch for the location and size of your ellipse. 
