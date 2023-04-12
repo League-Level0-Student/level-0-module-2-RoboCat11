@@ -21,7 +21,7 @@ public class StringsCannotAdd {
 			// 5) Ask the user to enter number 5 and hold it in the variable fiveAsString 
 				  String fiveAsString = JOptionPane.showInputDialog("Enter the number 5");
 			// 6) Print the addition of the variables fourAsString, sixAsString, and fiveAsString 
-				  String fourAsStringfiveAsStringsixAsString = JOptionPane.showInputDialog(465);
+				  JOptionPane.showMessageDialog(null,fourAsString+sixAsString+fiveAsString);
 			
 			//Did you notice 465 instead of 4 + 6 + 5 = 15?
 			
@@ -31,13 +31,14 @@ public class StringsCannotAdd {
 			// 7) Do the same for sixAsString. 
 				  int sixAsInt = Integer.parseInt(sixAsString);
 			// 8) Print the addition of fourAsInt and sixAsInt using JOptionPane 
-				  int fourAsIntsixAsInt = Integer.parseInt(fourAsString+sixAsString);
+				  JOptionPane.showMessageDialog(null,fourAsInt+sixAsInt);
 			
 			// Did you notice the value 10? If so, hurray! You just changed the type of your variable from String to int.
 			
 			// 9) Convert fiveAsString to fiveAsInt using Integer.parseInt();  
-			
+			      int fiveAsInt = Integer.parseInt(fiveAsString);
 			// 10) Print the addition of fourAsInt, sixAsInt, and fiveAsInt using JOptionPane 
+			       JOptionPane.showMessageDialog(null,fourAsInt+sixAsInt+fiveAsInt);
 			
 			// Is your value now 15 instead of 465?
 			  }
