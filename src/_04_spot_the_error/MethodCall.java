@@ -1,5 +1,7 @@
 package _04_spot_the_error;
 
+import javax.swing.JOptionPane;
+
 public class MethodCall {
 
 	// This program is supposed to print the message "Hello World".
@@ -7,7 +9,7 @@ public class MethodCall {
 	// Add ONE line of code to fix this program.
 	
 	public static void main(String[] args) {
-		
+	JOptionPane.showMessageDialog(null,"Hello World");
 	}
 	
 	static void printMessage(String aMessage) {
