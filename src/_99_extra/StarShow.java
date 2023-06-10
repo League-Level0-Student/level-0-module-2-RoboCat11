@@ -49,7 +49,7 @@ public class StarShow {
 	private void drawStar(int starSize) {
 		
 
-			for(int i = 0; i>5; i ++){  
+			for(int i = 0; i<5; i ++){  
 			// 1. Move the robot the distance of the starSize variable
 				rob.move(starSize);
 			// 2. Put the robot's pen down
