@@ -8,7 +8,7 @@ import org.jointheleague.graphical.robot.Robot;
 * 1. ask students to find and explain the method in this recipe. 
 * 2. ask students how they might use the method to make the picture in the laminated hand-outs. */
 
-public class StarShow {
+public class StarShow2 {
 	
 	Robot rob = new Robot("batman");
 	
@@ -61,7 +61,7 @@ public class StarShow {
 				
 }	
 	public static void main(String[] args) {
-		new StarShow().makeStars();
+		new StarShow2().makeStars();
 	}
 }
 
